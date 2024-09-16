@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./style.css">
+    <title>Document</title>
+</head>
+
+<body>
+
+    <div class="container">
+        <button data-open style="color: black;
+        font-size: 20px;">OPEN DIALOG</button>
+        <dialog class="active" style="border: none;" data-dialogone>
+            <div class="box">
+                <div class="btn-x"><button class="x" style="color: black; " data-close>X</button></div>
+                <h1>Оставить заявку</h1>
+                <input type="text" style="margin-bottom: 9px;">
+                <input type="text" style="margin-bottom: 8px;">
+                <button class="btn" style="background-color: #0094FF;">Отправить</button>
+            </div>
+        </dialog>
+
+        <button style="color: black;
+        width: 20px;
+        font-size: 20px;" data-burger>&#9776;</button>
+
+        <dialog class="big_active" style="
+            flex-direction: column;
+            justify-content: center;
+            width: 592px;
+            height: 1117px;
+            left: 1136px;
+            background-color: black;
+            color: white;
+            padding-top: 50px;" data-dialogtwo>
+            <div class="big_box">
+                <h2>Меню</h2>
+                <ul>
+                    <li>Главная страница</li>
+                    <li>Главная страница</li>
+                    <li>Главная страница</li>
+                    <li>Главная страница</li>
+                    <li>Главная страница</li>
+                    <li>Главная страница</li>
+                    <li>Главная страница</li>
+                    <li>Главная страница</li>
+                    <li>Главная страница</li>
+                    <li>Главная страница</li>
+                </ul>
+            </div>
+        </dialog>
+
+
+    </div>
+
+    <script src="./script.js"></script>
+</body>
+
+</html>
